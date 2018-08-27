@@ -6,11 +6,8 @@ int main() {
 	n = 1;
 	max = n;
 	max2 = 0;
-	while (n != 0) {
-		cin >> n;
-		if (n != 0) {
+	while (cin >> n, n != 0) {
 			if (max >= n) {
-				
 				max = max;
 				if (max > max2 && max2 >= n) { max2 = max2; }
 				else { max2 = n; }
@@ -24,7 +21,7 @@ int main() {
 
 			if (i > 1) { max2 = max; }
 			
-		}
+
 	}
 	cout << max2;
 	return 0;
