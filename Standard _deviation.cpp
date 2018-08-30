@@ -4,7 +4,7 @@
 using namespace std;
 int main() {
 	int x, i(0), amount_squares(0);
-	double delta, amount(0), average, variable(0), difference;
+	double delta, amount(0), variable(0);
 	while (cin >> x, x != 0) { // последовательность оканчивающаяся на 0; 0 не входит в последовательность
 		i = i + 1; // считает количество переменных
 		amount_squares = pow(x, 2) + amount_squares; // считает сумму квадратов
